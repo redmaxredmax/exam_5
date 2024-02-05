@@ -1,0 +1,23 @@
+.header__list {
+    display: flex;
+    gap: 97px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.list_link {
+    color: #262626;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    &:hover{
+        color: #40bfff;
+    }
+}

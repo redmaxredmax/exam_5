@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Exam</title>
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal__content">
+            <div class="modal__card">
+                <button class="close__btn">x</button>
+                <span></span>
+                <p class="modal__text text1">PRODUCT</p>
+                <p class="modal__text text2">NAME</p>
+                <p class="modal__text text3">PRICE</p>
+            </div>
+            <div class="modal__block">
+            </div>
+            <div class="modal__feee">
+                <div class="modal__fee">
+                    <div class="modal__fees">
+                        <p class="modal_txt ">Subtotal</p>
+                        <p class="modal_txt ">Shipping fee</p>
+                        <p class="modal_txt ">Coupon</p>
+                        <br>
+                        <p class="modal__total">TOTAL</p>
+                    </div>
+                    <div class="modal__wrapper">
+                        <p class="modal_txt modal__total_cost">$</p>
+                        <p class="modal_txt modal__shipping_cost">$20</p>
+                        <p class="modal_txt coupon">No</p>
+                        <br>
+                        <p class="modal__total_fee">$</p>
+                    </div>
+                </div>
+                <button class="modal__check">Check out</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <button class="open__modal">
+            <img class="open__img" src="./img/purchase.svg" alt="bin">
+        </button>
+    </div>
+    <div class="top__header">
+        <div class="container top_container">
+            <div class="top_block">
+                <select class="top_sel" name="language">
+                    <option value="lang">EN</option>
+                    <option value="lang">UZ</option>
+                    <option value="lang">RU</option>
+                </select>
+                <select class="top_sel" name="currency">
+                    <option value="currency">USD</option>
+                    <option value="currency">UZS</option>
+                    <option value="currency">RU</option>
+                </select>
+            </div>
+            <div class="top_wrapper">
+                <a href="#" class="top_text top_profile">My profile</a>
+                <a href="#">
+                    <div class="top__bin_block">
+                        <img class="top__bin" src="./img/bin.svg" alt="icon">
+                        <span class="bin_count_bg">0</span>
+                    </div>
+                </a>
+                <a href="#" class="top_text">Items</a>
+                <a class="top_price">$0.00</a>
+                <button class="top__search_btn">
+                    <img class="top__img" src="./img/search.svg" alt="icon">
+                </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#">
+                <img src="./img/logo.svg" alt="logo">
+                <ul class="header__list">
+                    <li class="list_item">
+                        <a class="list_link" href="#">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="list_item">
+                        <a class="list_link" href="#">
+                            BAGS
+                        </a>
+                    </li>
+                    <li class="list_item">
+                        <a class="list_link" href="#">
+                            SNEAKERS
+                        </a>
+                    </li>
+                    <li class="list_item">
+                        <a class="list_link" href="#">
+                            BELT
+                        </a>
+                    </li>
+                    <li class="list_item">
+                        <a class="list_link" href="#">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </a>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__block">
+                <div class="slider">
+                    <div class="item">
+                        <img class="slider__img" src="./img/hero_bg.png" alt="img">
+                    </div>
+                    <div class="item">
+                        <img class="slider__img" src="./img/slide1.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <img class="slider__img" src="./img/slide2.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <img class="slider__img" src="./img/slide3.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <img class="slider__img" src="./img/slide4.jpg" alt="img">
+                    </div>
+                </div>
+                <h2 class="hero__title">
+                    Super Flash Sale
+                    50% Off
+                </h2>
+            </div>
+            <ul class="hero__list">
+                <li class="hero__item">
+                    <img src="./img/hero_card1.svg" alt="card">
+                </li>
+                <li class="hero__item">
+                    <img src="./img/hero_card2.svg" alt="card">
+                </li>
+                <li class="hero__item">
+                    <img src="./img/hero_card3.svg" alt="card">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="seller">
+        <div class="container seller__container">
+            <h2 class="seller__title">BEST SELLER</h2>
+            <form class="seller__form">
+                <input placeholder="Search query..." class="seller_input" name="text" type="text">
+                <button class="seller__search_btn" type="submit">Search</button>
+                <div class="search__data">
+
+                </div>
+            </form>
+            <div class="seller__tabs">
+                <button data-id="1" class="tab_btn tab_all">All</button>
+                <button data-id="electronics" class="tab_btn tab_electronics">Electronics</button>
+                <button data-id="jewelery" class="tab_btn tab_Jewelery">Jewelery</button>
+                <button data-id="men's clothing" class="tab_btn tab_men">Men's clothing</button>
+                <button data-id="women's clothing" class="tab_btn tab_women">Women's clothing</button>
+            </div>
+            <div class="content_box">
+                <div class="seller__all">
+                    <ul class="content__text_all"></ul>
+                </div>
+                <div class="seller__electronics">
+                    <ul class="content__text_electronics"></ul>
+                </div>
+                <div class="seller__jewelery">
+                    <ul class="content__text_jewelery"></ul>
+                </div>
+                <div class="seller__men">
+                    <ul class="content__text_men"></ul>
+                </div>
+                <div class="seller__women">
+                    <ul class="content__text_women"></ul>
+                </div>
+            </div>
+            <a class="seller_info">LOAD MORE</a>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container contact__container">
+            <ul class="contact__list">
+                <li class="contact__item contact__item1">
+                    <a class="item__link" href="#">FREE SHIPPING</a>
+                </li>
+                <li class="contact__item contact__item2">
+                    <a class="item__link" href="#">100% REFUND</a>
+                </li>
+                <li class="contact__item contact__item3">
+                    <a class="item__link" href="#">SUPPORT 24/7"</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__block">
+                <a class="logo" href="#">
+                    <img src="./img/logo.svg" alt="logo">
+                </a>
+                <p class="footer__text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever.Since the 1500s, when an unknown printer.
+                </p>
+            </div>
+            <div class="footer__box">
+                <h3 class="footer__title">
+                    Follow Us
+                </h3>
+                <p class="footer__text">Since the 1500s, when an unknown printer took a galley of type and scrambled.
+                </p>
+                <div class="footer__icons">
+                    <a href="#">
+                        <img class="footer__icon" src="./img/facebook.svg" alt="icon">
+                    </a>
+                    <a href="#">
+                        <img class="footer__icon" src="./img/twitter.svg" alt="icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__wrapper">
+                <h3 class="footer__title">
+                    Contact Us
+                </h3>
+                <p class="footer__wrapper_text">
+                    E-Comm , 4578 Marmora Road, Glasgow D04 89GR
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./JS/slick.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>

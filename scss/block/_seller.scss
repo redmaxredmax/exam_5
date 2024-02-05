@@ -1,0 +1,255 @@
+.seller {
+    padding-top: 346px;
+}
+
+li {
+    list-style: none;
+}
+
+.seller_input {
+    width: 633px;
+    padding-top: 24px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    border: 2px solid #bcddfe;
+    border-radius: 5px;
+    outline: #086bce;
+
+    &::placeholder {
+        color: #262626;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        opacity: 0.35;
+    }
+}
+
+.seller__search_btn {
+    position: absolute;
+    left: 850px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: #40bfff;
+    padding: 17px 27px;
+}
+
+.seller__container {
+    padding-bottom: 115px;
+}
+
+.seller__form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.seller__title {
+    text-align: center;
+    color: #22262a;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0%;
+    margin-bottom: 26px;
+}
+
+.seller__tabs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.tab_btn {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+        color: #40bfff;
+    }
+}
+
+.tab_btn:focus {
+    color: #40bfff;
+    border-bottom: 3px solid #40bfff;
+}
+
+.card__title {
+    color: #223263;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.seller__rating {
+    width: 163px;
+    display: block;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+}
+
+.seller__item {
+    margin-bottom: 40px;
+}
+
+.card__price {
+    color: rgb(64, 191, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0.5px;
+}
+
+.seller_info {
+    color: #33a0ff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid #33a0ff;
+    display: block;
+    justify-content: center;
+}
+
+// js
+.seller__all {
+    display: none;
+}
+
+.seller__electronics {
+    display: none;
+}
+
+.seller__jewelery {
+    display: none;
+}
+
+.seller__men {
+    display: none;
+}
+
+.seller__women {
+    display: none;
+}
+
+.active {
+    display: flex;
+}
+
+.passive {
+    display: none;
+}
+
+.content__text_all {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.content_box {
+    margin-bottom: 25px;
+}
+
+.seller__electronics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+}
+
+.seller__jewelery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.seller__men {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.seller__women {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.seller__photos {
+    width: 300px;
+    height: 276px;
+}
+
+.add__button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #40bfff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #ffffff;
+    &:active{
+        transform:scale(0.9) 
+    }
+}
+
+.btn_style {
+    border: 3px solid #40bfff;
+    color: #40bfff;
+}
+
+.card__dis {
+    color: #fb7181;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.card__cost {
+    color: #9098b1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    text-decoration-line: line-through;
+}
+
+.seller__item_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.seller__btn {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+}

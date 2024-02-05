@@ -1,0 +1,40 @@
+.contact__container {
+    padding-bottom: 136px;
+}
+
+.contact__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact__item {
+    color: #22262a;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0%;
+    align-items: center;
+}
+.contact__item1::before{
+    content: url("../../img/contact1.svg");
+    display: block;
+    margin-bottom: 43px;
+    text-align: center;
+}
+.contact__item2::before{
+    content: url("../../img/contact2.svg");
+    display: block;
+    margin-bottom: 43px;
+    text-align: center;
+}
+.contact__item3::before{
+    content: url("../../img/contact3.svg");
+    display: block;
+    margin-bottom: 43px;
+    text-align: center;
+}
+.item__link{
+    color: #22262a;
+}
